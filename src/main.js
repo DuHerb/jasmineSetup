@@ -5,6 +5,6 @@ import { someFunction } from './jasmine.js';
 import './styles.css';
 
 $(document).ready(function() {
-  someFunction("input from jasmine.js");
+  // someFunction("input from jasmine.js");
   $('#output').text("Jasmine main.js connected");
 });
